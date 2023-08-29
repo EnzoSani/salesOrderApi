@@ -8,7 +8,7 @@ using salesOrderApi.Repository.IRepository;
 namespace salesOrderApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class CustomerController : Controller
     {
         private readonly ICustomerRepository _customerRepository;
