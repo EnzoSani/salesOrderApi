@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Wwwroot\Uploads\Common\" />
     <Folder Include="Wwwroot\Uploads\Product\" />
   </ItemGroup>
 

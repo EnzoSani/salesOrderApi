@@ -15,9 +15,10 @@ namespace salesOrderApi.Controllers
         private readonly IInvoiceRepository _invoiceRepository;
         private readonly IWebHostEnvironment environment;
 
-        public InvoiceController(IInvoiceRepository invoiceRepository)
+        public InvoiceController(IInvoiceRepository invoiceRepository, IWebHostEnvironment environment)
         {
             _invoiceRepository = invoiceRepository;
+            this.environment = environment;
         }
 
         [HttpGet ("GetAllHeader")]
